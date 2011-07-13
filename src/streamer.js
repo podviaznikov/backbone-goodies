@@ -1,3 +1,4 @@
+/**(c) 2011 Enginimation Studio (http://enginimation.com). May be freely distributed under the MIT license.*/
 /*global Backbone: true, io: true, JSON:true */
 "use strict";
 //streaming backbone collection. Preconditions: socket.io should be included.
