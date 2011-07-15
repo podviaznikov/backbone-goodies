@@ -31,3 +31,9 @@ Backbone.View.prototype.renderTpl=function(model){
     }
     return this;
 };
+Backbone.ModelView=Backbone.View.extend({
+    initialize:function(){
+        Backbone.View.prototype.initialize.apply(this,arguments);
+        this.model.view=this;
+    }
+});
