@@ -14,6 +14,7 @@ Backbone.BasicView=Backbone.View.extend({
         return this;
     }
 });
+// view for single model
 Backbone.ModelView=Backbone.View.extend({
     tplId:'',
     initialize:function(){
